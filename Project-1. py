@@ -1,0 +1,10 @@
+#Area of circle
+pi=3.141592653589793238
+radius=float('1.1') 
+area=pi*radius*radius
+Print('area of the circle=', area) 
+
+#Extension of file
+filename='abc.python'
+extension=filename.split('.') 
+print("The extension of the file is:"+ repr(extension[-1])) 
