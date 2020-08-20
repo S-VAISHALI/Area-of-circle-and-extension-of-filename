@@ -13,18 +13,4 @@ print("The extension of the file is:"+ repr(extension[-1]))
 
 
 
-                    PROJECT-2
-#Fibonacci Series
-
-fib=int(input("Enter value of n:")) 
-a=0
-b=1
-sum=0
-c=1
-print("Fibonacci series:", end=" ") 
-while(c<=fib) :
-    print(sum, end=" ") 
-    c+=1
-    a=b
-    b=sum
-    sum=a+b
+                    
