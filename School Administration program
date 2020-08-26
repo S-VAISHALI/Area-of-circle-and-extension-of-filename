@@ -1,0 +1,29 @@
+#Project-1:SCHOOL ADMINISTRATION PROGRAM
+import csv
+def write_into_csv(info_list) :
+    with open("student_info.csv", "a", newline=" ") as csv_file:
+        writer=csv.writer(csv_file) 
+        if csv.file.tell() ==0:
+            writer.writerow("Name", " Age", "D.O.B"," Address "," Contact Number","E-mail ID") 
+        writer. writerow(info_list) 
+if name=="Details":
+    Condition=True
+    Register_Number=1
+    while(condition) :
+        student_info=input("Enter info for student #{} in the following format (Na Age, D.O.B,Address, Contact Number, E-mail ID) :".format (Register_Number) )
+        print("Entered information:"+student_info
+        Student_info_list=student_info.split(" ") 
+        print(" Applied split up information is:"+strong (student_info_list)) 
+        print("\n The entered info is-\n Name:{}\n Age:{}\n D.O.B:{}\n Address:{}\n Contact Number:{}\n E-mail ID\n .format (student_info_list[1], student_info_list[2], student_info_list[3], student_info_list [4], student_info_list[5])) 
+        choice=input("If the entered is correct (yes/no) :") 
+        if choice="yes":
+            write_info_csv(student_info_list) 
+            condition_check=input("Enter (yes/no) if you want to enter information of one more student:") 
+            if condition_check="yes":
+                Condition=True
+                Register_Number=Register_Number+1
+            elif condition_check="no":
+                Condition=False
+       elif choice="no":
+            print("\n Please enter the correct value") 
+      
